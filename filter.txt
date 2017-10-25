@@ -8,9 +8,9 @@ ItemDisplay[GOLD<3000]:
 ItemDisplay[hp1 OR hp2 OR hp3]:									// hide low-grade healing potions
 ItemDisplay[mp1 OR mp2 OR mp3]:									// hide low-grade mana potions
 
-ItemDisplay[hp4]: %RED%[%GRAY%Health%RED%]						// Greater Healing potion
+ItemDisplay[hp4]: %RED%[%GRAY%!%RED%]						// Greater Healing potion
 ItemDisplay[hp5]: %RED%[%WHITE%Health%RED%]						// Super Healing potion
-ItemDisplay[mp4]: %BLUE%[%GRAY%Mana%BLUE%]						// Greater Mana potion
+ItemDisplay[mp4]: %BLUE%[%GRAY%!%BLUE%]						// Greater Mana potion
 ItemDisplay[mp5]: %BLUE%[%WHITE%Mana%BLUE%]						// Super Mana potion
 ItemDisplay[rvs]: %PURPLE%[%GRAY%Rejuvenation%PURPLE%]			// Rejuvenation potion
 ItemDisplay[rvl]: %PURPLE%[%WHITE%Rejuvenation%PURPLE%]			// Full Rejuvenation potion
@@ -43,6 +43,16 @@ ItemDisplay[yps]: %BLACK% Antidote
 ItemDisplay[(WP11 OR WP12 OR WP13) !RARE !UNI !SET SOCK<5]: %WHITE%%NAME% ($ %PRICE%)
 
 // ===>>> ADD YOUR CUSTOM RULES HERE! <<<===
+
+//PoD Items
+ItemDisplay[cx5]: %PURPLE%Orb of Corruption
+
+//Essences (Respec Token)
+ItemDisplay[tes]: %GOLD%Suffering [Andariel]
+ItemDisplay[ceh]: %GOLD%Hatred [Mephisto]
+ItemDisplay[bet]: %GOLD%Terror [Diablo]
+ItemDisplay[fed]: %GOLD%Destruction [Baal]
+ItemDisplay[toa]: %GOLD%Token of Absolution
 
 // NORMAL ITEMS
 ItemDisplay[NORM			NMAG	!SUP	!INF	!RW	SOCK<5]:
