@@ -44,6 +44,58 @@ ItemDisplay[(WP11 OR WP12 OR WP13) !RARE !UNI !SET SOCK<5]: %WHITE%%NAME% ($ %PR
 
 // ===>>> ADD YOUR CUSTOM RULES HERE! <<<===
 
+//RUNES
+//1-16
+ItemDisplay[r01 CLVL>86]: %GRAY%%RUNENAME% Rune [1]
+ItemDisplay[r02 CLVL>86]: %GRAY%%RUNENAME% Rune [2]
+ItemDisplay[r03 CLVL>86]: %GRAY%%RUNENAME% Rune [3]
+ItemDisplay[r01]: %TAN%%RUNENAME% Rune [1]
+ItemDisplay[r02]: %TAN%%RUNENAME% Rune [2]
+ItemDisplay[r03]: %TAN%%RUNENAME% Rune [3]
+ItemDisplay[r04]: %ORANGE%Nef [B Gloves]
+ItemDisplay[r05 CLVL>86]: %GRAY%%RUNENAME% Rune [5]
+ItemDisplay[r05]: %TAN%%RUNENAME% Rune [5]
+ItemDisplay[r06]: %ORANGE%Ith [C Belt]
+ItemDisplay[r07]: %ORANGE%Tal [B Belt]
+ItemDisplay[r08]: %ORANGE%Ral [C Amulet]
+ItemDisplay[r09]: %ORANGE%Ort [HP Gloves]
+ItemDisplay[r10]: %ORANGE%Thul [S Amulet]
+ItemDisplay[r11]: %ORANGE%Amn [C Ring]
+ItemDisplay[r12]: %ORANGE%Sol [B Ring]
+ItemDisplay[r13 CLVL>86]: %GRAY%%RUNENAME% Rune [13]
+ItemDisplay[r14 CLVL>86]: %GRAY%%RUNENAME% Rune [14]
+ItemDisplay[r15 CLVL>86]: %GRAY%%RUNENAME% Rune [15]
+ItemDisplay[r16 CLVL>86]: %GRAY%%RUNENAME% Rune [16]
+ItemDisplay[r13]: %TAN%%RUNENAME% Rune [13]
+ItemDisplay[r14]: %TAN%%RUNENAME% Rune [14]
+ItemDisplay[r15]: %TAN%%RUNENAME% Rune [15]
+ItemDisplay[r16]: %TAN%%RUNENAME% Rune [16]
+//17-23
+ItemDisplay[r17]: %TAN%%RUNENAME% Rune [17]
+ItemDisplay[r18]: %TAN%%RUNENAME% Rune [18]
+ItemDisplay[r19]: %TAN%%RUNENAME% Rune [19]
+ItemDisplay[r20]: %TAN%%RUNENAME% Rune [20]
+ItemDisplay[r21]: %TAN%%RUNENAME% Rune [21]
+ItemDisplay[r22]: %TAN%%RUNENAME% Rune [22]
+ItemDisplay[r23]: %TAN%%RUNENAME% Rune [23]
+//24-33
+ItemDisplay[r24]: %RED%%RUNENAME% Rune [24]
+ItemDisplay[r25]: %RED%%RUNENAME% Rune [25]
+ItemDisplay[r26]: %RED%%RUNENAME% Rune [26]
+//ItemDisplay[r27]: %RED%%RUNENAME% Rune []
+//ItemDisplay[r28]: %RED%%RUNENAME% Rune []
+//ItemDisplay[r29]: %RED%%RUNENAME% Rune []
+//ItemDisplay[r30]: %RED%%RUNENAME% Rune []
+ItemDisplay[r31]: %RED%%RUNENAME% Rune [31]
+ItemDisplay[r32]: %RED%%RUNENAME% Rune [32]
+ItemDisplay[r33]: %RED%%RUNENAME% Rune [33]
+//High Value Runes (3.0+)
+ItemDisplay[r27]: %RED%¤ %RUNENAME% Rune ¤
+ItemDisplay[r28]: %RED%¤ %RUNENAME% Rune ¤
+ItemDisplay[r29]: %RED%¤ %RUNENAME% Rune ¤
+ItemDisplay[r30]: %RED%¤ %RUNENAME% Rune ¤
+//
+
 //PoD Items
 ItemDisplay[cx5]: %PURPLE%Orb of Corruption
 
