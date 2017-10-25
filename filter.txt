@@ -2,7 +2,7 @@
 // more info at http://pathofdiablo.com/wiki/index.php/Loot_Filtration
 
 // Hide gold piles below certain treshhold
-ItemDisplay[GOLD<500]:
+ItemDisplay[GOLD<4000]:
 
 // POTIONS
 ItemDisplay[hp1 OR hp2 OR hp3]:									// hide low-grade healing potions
