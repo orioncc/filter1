@@ -18,6 +18,7 @@ ItemDisplay[rvl]: %PURPLE%[%WHITE%Rejuvenation%PURPLE%]			// Full Rejuvenation p
 // hide low-grade gems
 ItemDisplay[gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc]:		// chipped
 ItemDisplay[gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf]:		// flawed
+ItemDisplay[gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf]:		// normal
 
 // hide white/magic arrows and bolts
 ItemDisplay[(aq2 OR cq2) !RARE]:
