@@ -2,7 +2,7 @@
 // more info at http://pathofdiablo.com/wiki/index.php/Loot_Filtration
 
 // Hide gold piles below certain treshhold
-ItemDisplay[GOLD<4000]:
+ItemDisplay[GOLD<3000]:
 
 // POTIONS
 ItemDisplay[hp1 OR hp2 OR hp3]:									// hide low-grade healing potions
@@ -18,7 +18,6 @@ ItemDisplay[rvl]: %PURPLE%[%WHITE%Rejuvenation%PURPLE%]			// Full Rejuvenation p
 // hide low-grade gems
 ItemDisplay[gcv OR gcy OR gcb OR gcg OR gcr OR gcw OR skc]:		// chipped
 ItemDisplay[gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf]:		// flawed
-ItemDisplay[gfv OR gfy OR gfb OR gfg OR gfr OR gfw OR skf]:		// normal
 
 // hide white/magic arrows and bolts
 ItemDisplay[(aq2 OR cq2) !RARE]:
